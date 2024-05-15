@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home page</title>
+  <!-- my css  -->
+  <link rel="stylesheet" href="./asste/css/main.css">
+  <!-- bootstrap cdn css -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!-- bootstrap icon -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+  <!-- ===== header ======= -->
+    <header style="z-index: 1" class="w-100 px-4 border-bottom position-fixed top-0 end-0  start-0 bg-white  ">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid gap-4 justify-content-between ">
+            <div class="d-flex align-items-center ">
+              <img style="width:50px;height:50px; object-fit: contain;" src="./asste/logo.png" alt="">
+              <a style="margin-right:50px;" class="navbar-brand fw-bold " href="#">Time Doctor</a>
+            </div>
+           <div class="d-flex align-items-center gap-3">
+            <button id="radius" class=" d-sm-block d-md-block d-lg-none border-0 bg-danger text-light py-2 px-3">
+              Start Trial
+            </button>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+           </div>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav w-100 d-lg-flex justify-content-lg-between ">
+             <div id="item" class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">
+                  <span>product</span>
+                  <span>
+                    <i class="bi bi-chevron-down"></i>
+                  </span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">
+                  <span>Solutions</span>
+                  <span>
+                    <i class="bi bi-chevron-down"></i>
+                  </span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Pricing</a>
+              </li>
+             </div>
+             <ul  class="d-flex gap-sm-3 p-0">
+              <li class="nav-item list-group">
+                <a class="nav-link" href="#">Sign In</a>
+              </li>
+                <button id="radiu" class="d-flex align-items-center gap-3 border-1 bg-white py-2 px-3 fs-5">
+                <span>  View Demo</span>
+                  <span>
+                    <i class="bi bi-arrow-right"></i>
+                  </span>
+                </button>
+             </ul>
+            </ul>
+          </div>
+          <button id="radius" class=" d-none d-lg-block bg-danger text-light border-0 fs-5 px-3 py-2  ">Start Trial</button>
+        </div>
+      </nav>
+    </header>
+  <!--======== content ======== -->
+  <main>
+    <section id="hero" class="py-5 my-5">
+      <div class="container">
+        <div class="row">
+          <div class=" col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+            <h1 class="fs-4 text-success ">The #1 Workforce Analytics Platform</h1>
+            <h1 class="lg-font my-3">
+              Get Peace of Mind with Workforce Analytics for Fully Remote Teams
+            </h1>
+            <h1 class="fs-4">
+              Uncover insights in people, tech & operations to solve workforce performance gaps
+            </h1>
+            <div class="d-flex align-items-center justify-content-sm-center justify-content-start  gap-4 my-4">
+              <button id="radius" class="bg-danger border-0 text-light py-2 px-3  fs-4">
+                <span>Try it Free</span>
+                <span><i class="bi bi-arrow-right"></i></span>
+              </button>
+              <button id="radius" class="bg-danger border-0 text-light py-2 px-3 fs-4">
+                <span>View Demo</span>
+                <span><i class="bi bi-arrow-right"></i></span>
+              </button>
+            </div>
+            <div  class="d-flex align-items-center gap-5 star justify-content-center ">
+              <div>
+                <span><i class="bi bi-star-fill"></i></span>
+                <span><i class="bi bi-star-fill"></i></span>
+                <span><i class="bi bi-star-fill"></i></span>
+                <span><i class="bi bi-star-fill"></i></span>
+                <span><i class="bi bi-star-half"></i></span>
+              </div>
+              <div>
+                <span><i class="bi bi-star-fill"></i></span>
+                <span><i class="bi bi-star-fill"></i></span>
+                <span><i class="bi bi-star-fill"></i></span>
+                <span><i class="bi bi-star-fill"></i></span>
+                <span><i class="bi bi-star-half"></i></span>
+             </div>
+             <div>
+              <span><i class="bi bi-star-fill"></i></span>
+              <span><i class="bi bi-star-fill"></i></span>
+              <span><i class="bi bi-star-fill"></i></span>
+              <span><i class="bi bi-star-fill"></i></span>
+              <span><i class="bi bi-star-half"></i></span>
+             </div>
+          </div>
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+            <img class="w-100 h-75" src="https://www.timedoctor.com/_next/image?url=https%3A%2F%2Fa-us.storyblok.com%2Ff%2F1016472%2F510x531%2F5dbf35edfb%2Fwork-section-img.png%2Fm%2Ffilters%3Aquality(80)&w=1080&q=100" alt="">
+            <img style="width: 150px; z-index: 0;" class="position-absolute end-0" src="https://www.timedoctor.com/_next/image?url=https%3A%2F%2Fa-us.storyblok.com%2Ff%2F1016472%2F160x151%2F25a2ce5182%2Fhours-tracked.png%2Fm%2Ffilters%3Aquality(80)&w=384&q=100" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <h1 class="text-center  fs-4">Join Over 260,000 Time Doctor Users</h1>
+      <div class="container" id="logo">
+        <div class="row">
+          <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+            <img src="https://www.timedoctor.com/_next/image?url=https%3A%2F%2Fa-us.storyblok.com%2Ff%2F1016472%2F206x80%2Fcc0c81a779%2Fboost-media.png%2Fm%2Ffilters%3Aquality(80)&w=256&q=100" alt="">
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+            <img src="https://www.timedoctor.com/_next/image?url=https%3A%2F%2Fa-us.storyblok.com%2Ff%2F1016472%2F136x124%2F29bc82e984%2Fericsson.png%2Fm%2Ffilters%3Aquality(80)&w=256&q=100" alt="">
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+            <img src="https://www.timedoctor.com/_next/image?url=https%3A%2F%2Fa-us.storyblok.com%2Ff%2F1016472%2F208x94%2F9a76059c94%2Fkellerwilliams.png%2Fm%2Ffilters%3Aquality(80)&w=256&q=100" alt="">
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+            <img src="https://www.timedoctor.com/_next/image?url=https%3A%2F%2Fa-us.storyblok.com%2Ff%2F1016472%2F212x80%2Fbf3f0f0bb2%2Fthrive.png%2Fm%2Ffilters%3Aquality(80)&w=256&q=100" alt="">
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+            <img src="https://www.timedoctor.com/_next/image?url=https%3A%2F%2Fa-us.storyblok.com%2Ff%2F1016472%2F80x128%2Feeeabbe46f%2Fbbb-better-business-bureau.png%2Fm%2Ffilters%3Aquality(80)&w=96&q=100" alt="">
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+            <img src="https://www.timedoctor.com/_next/image?url=https%3A%2F%2Fa-us.storyblok.com%2Ff%2F1016472%2F274x70%2F74e5a58302%2Ffirehouse-subs.png%2Fm%2Ffilters%3Aquality(80)&w=384&q=100" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+    <section style="background-color: #f6f6f8;" class="py-5">
+      <h1 class="text-center lg-font">How Time Doctor Works</h1>
+      <p class="fs-4 text-center w-75 m-auto mb-5 pb-5 ">
+        Make your business effective not just productive by uncovering unseen workforce gaps, visualizing data from top executives to frontline employees
+      </p>
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-6">
+            <h1 class="text-center lg-font pt-5">Uncover Workforce Insights</h1>
+            <p class="fs-4 pt-4 pb-5">
+              Gain hidden workforce insights from all levels of your business, visualized in real-time dashboards and reports. Identify productivity bottlenecks, capacity gaps, work-life imbalances, and preferred tools. Gain actionable insights to optimize workforce performance and employee well-being.
+            </p>
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-6">
+            <img class="w-100" src="https://www.timedoctor.com/_next/image?url=https%3A%2F%2Fa-us.storyblok.com%2Ff%2F1016472%2F600x467%2F22120fedaa%2Fhomepage-feat-for-managers.png%2Fm%2Ffilters%3Aquality(80)&w=1200&q=100" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="container my-5">
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-6">
+            <img class="w-100" src="https://www.timedoctor.com/_next/image?url=https%3A%2F%2Fa-us.storyblok.com%2Ff%2F1016472%2F600x467%2F44af14ea3b%2Fhomepage-feat-for-employees.png%2Fm%2Ffilters%3Aquality(80)&w=1200&q=100" alt="">
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-6">
+            <h1 class="text-center lg-font pt-5">Enhance Team Performance & Retention</h1>
+            <p class="fs-4 pt-4 pb-5">
+              Boost revenue by balancing workforce well-being and increasing productivity. Implement processes and behavior shifts for engaged teams, efficient tool usage, and effective work output.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="container pb-5">
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-6">
+            <h1 class="text-center lg-font pt-5">Get Peace of Mind</h1>
+            <p class="fs-4 pt-4 pb-5">
+              Getting a deep understanding of how your workforce operates allows you and your business to eliminate distractions, be more effective and reduce anxiety
+            </p>
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-6">
+            <img class="w-100" src="https://www.timedoctor.com/_next/image?url=https%3A%2F%2Fa-us.storyblok.com%2Ff%2F1016472%2F600x467%2F7f9875dd1e%2Fhomepage-feat-for-organization.png%2Fm%2Ffilters%3Aquality(80)&w=1200&q=100" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="our" class="py-5">
+      <h1 class="text-center lg-font">Our Solutions</h1>
+      <h1 class="text-center fs-4 ">The #1 Workforce Analytics Platform for all teams and industries.</h1>
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4">
+            <img style="width: 100px; height:100px;" src="https://www.timedoctor.com/_next/image?url=https%3A%2F%2Fa-us.storyblok.com%2Ff%2F1016472%2F83x88%2Ff304699aa9%2Fremote-icon.svg%2Fm%2Ffilters%3Aquality(80)&w=256&q=100" alt="">
+           <h1 my-3>Fully Remote</h1>
+           <p>
+            Increased visibility and actionable work insights for remote workforces.
+           </p>
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4">
+            <img style="width: 100px; height:100px;" src="https://www.timedoctor.com/_next/image?url=https%3A%2F%2Fa-us.storyblok.com%2Ff%2F1016472%2F83x88%2Ff304699aa9%2Fremote-icon.svg%2Fm%2Ffilters%3Aquality(80)&w=256&q=100" alt="">
+           <h1 my-3>Fully Remote</h1>
+           <p>
+            Increased visibility and actionable work insights for remote workforces.
+           </p>
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4">
+            <img style="width: 100px; height:100px;" src="https://www.timedoctor.com/_next/image?url=https%3A%2F%2Fa-us.storyblok.com%2Ff%2F1016472%2F83x88%2Ff304699aa9%2Fremote-icon.svg%2Fm%2Ffilters%3Aquality(80)&w=256&q=100" alt="">
+           <h1 my-3>Fully Remote</h1>
+           <p>
+            Increased visibility and actionable work insights for remote workforces.
+           </p>
+          </div>
+        </div>
+      </div>
+      <div class="container my-5 py-3 bg-primary ">
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-6">
+            <h5>Enterprise</h5>
+            <h1 class="lg-font text-light ">
+              Time tracking and productivity software that scales with you
+            </h1>
+            <ul class="text-light ">
+              <li class="fs-4">Enterprise-level security and deployment</li>
+              <li class="fs-4">GDPR & HIPAA compliance </li>
+              <li class="fs-4">Custom user roles and permission settings</li>
+              <li class="fs-4">60+ integrations with enterprise tools </li>
+              <li class="fs-4">24-hour multilingual customer service </li>
+              <li class="fs-4">99% uptime SLA</li>
+              <button id="radiu" class="bg-success border-0 text-light py-3 px-5 my-3">Contact Sales</button>
+            
+            </ul>
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-6">
+            <img class="w-100 mt-4" src="https://www.timedoctor.com/_next/image?url=https%3A%2F%2Fa-us.storyblok.com%2Ff%2F1016472%2F470x390%2Fd55c7a332d%2Ftd_data-protection.png%2Fm%2Ffilters%3Aquality(80)&w=1080&q=100" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="container my-5">
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-6">
+            <h1 class="text-center lg-font pt-5">Don’t take our word for it</h1>
+            <p class="fs-4 pt-4 pb-5">
+              Teams from across the globe share how Time Doctor helps them become better by the second.
+            </p>
+            <div  class="d-flex align-items-center gap-5 star ">
+              <div>
+                <span><i class="bi bi-star-fill"></i></span>
+                <span><i class="bi bi-star-fill"></i></span>
+                <span><i class="bi bi-star-fill"></i></span>
+                <span><i class="bi bi-star-fill"></i></span>
+                <span><i class="bi bi-star-half"></i></span>
+              </div>
+              <div>
+                <span><i class="bi bi-star-fill"></i></span>
+                <span><i class="bi bi-star-fill"></i></span>
+                <span><i class="bi bi-star-fill"></i></span>
+                <span><i class="bi bi-star-fill"></i></span>
+                <span><i class="bi bi-star-half"></i></span>
+             </div>
+             <div>
+              <span><i class="bi bi-star-fill"></i></span>
+              <span><i class="bi bi-star-fill"></i></span>
+              <span><i class="bi bi-star-fill"></i></span>
+              <span><i class="bi bi-star-fill"></i></span>
+              <span><i class="bi bi-star-half"></i></span>
+             </div>
+          </div>
+          <div class="d-flex gap-3 align-items-center">
+            <img style="width: 100px;" src="https://www.timedoctor.com/_next/image?url=%2Fimages%2Fhome-page%2Fcapterra-logo.png&w=256&q=75" alt="">
+            <img style="width: 100px;" src="https://www.timedoctor.com/_next/image?url=%2Fimages%2Fhome-page%2Fgetapp-logo.png&w=256&q=75" alt="">
+            <img style="width: 60px; height: 50px;" src="https://www.timedoctor.com/_next/image?url=%2Fimages%2Fhome-page%2Fg-logo.png&w=64&q=75" alt="">
+          </div>
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-6">
+            <img class="w-100" src="https://www.timedoctor.com/_next/image?url=https%3A%2F%2Fa-us.storyblok.com%2Ff%2F1016472%2F600x467%2F44af14ea3b%2Fhomepage-feat-for-employees.png%2Fm%2Ffilters%3Aquality(80)&w=1200&q=100" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <!--======= footer ========= -->
+  <footer>
+    <section style="background-color: rgb(74, 77, 80);">
+      <div class="container text-center py-5">
+        <h1 class="lg-fon text-light text-center my-4 ">Try Time Doctor for free</h1>
+        <p class="fs-5 text-center text-light">
+          Reveal Workforce Analytics Insights, make your team effective and get peace of mind today
+        </p>
+        <button style="width: fit-content;" id="radius" class="bg-danger border-0 text-light py-2 px-3 fs-4 m-auto">
+          <span>View Demo</span>
+          <span><i class="bi bi-arrow-right"></i></span>
+        </button>
+        <p class="text-light mt-2">No credit card required</p>
+      </div>
+    </section>
+    <div class="footer py-5">
+        <div class="container-fluid ">
+          <div class="row">
+            <div class="col-xs-12 sm-6 col-md-4 col-lg-3 col-xl-2">
+              <ul class="m-0 p-0">
+                <h5>General</h5>
+                <li><a href="#"></a></li>
+                <li><a href="#">Case Studies</a></li>
+                <li><a href="#">Customer Reviews</a></li>
+                <li><a href="#">View Demo</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">ResourcesBenchmarking Tool</a></li>
+                <li><a href="#"></a></li>
+              </ul>
+            </div>
+            <div class="col-xs-12 sm-6 col-md-4 col-lg-3 col-xl-2">
+              <ul class="m-0 p-0">
+                <h5>General</h5>
+                <li><a href="#"></a></li>
+                <li><a href="#">Case Studies</a></li>
+                <li><a href="#">Customer Reviews</a></li>
+                <li><a href="#">View Demo</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">ResourcesBenchmarking Tool</a></li>
+                <li><a href="#"></a></li>
+              </ul>
+            </div>
+            <div class="col-xs-12 sm-6 col-md-4 col-lg-3 col-xl-2">
+              <ul class="m-0 p-0">
+                <h5>General</h5>
+                <li><a href="#"></a></li>
+                <li><a href="#">Case Studies</a></li>
+                <li><a href="#">Customer Reviews</a></li>
+                <li><a href="#">View Demo</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">ResourcesBenchmarking Tool</a></li>
+                <li><a href="#"></a></li>
+              </ul>
+            </div>
+            <div class="col-xs-12 sm-6 col-md-4 col-lg-3 col-xl-2">
+              <ul class="m-0 p-0">
+                <h5>General</h5>
+                <li><a href="#"></a></li>
+                <li><a href="#">Case Studies</a></li>
+                <li><a href="#">Customer Reviews</a></li>
+                <li><a href="#">View Demo</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">ResourcesBenchmarking Tool</a></li>
+                <li><a href="#"></a></li>
+              </ul>
+            </div>
+            <div class="col-xs-12 sm-6 col-md-4 col-lg-3 col-xl-2">
+              <ul class="m-0 p-0">
+                <h5>General</h5>
+                <li><a href="#"></a></li>
+                <li><a href="#">Case Studies</a></li>
+                <li><a href="#">Customer Reviews</a></li>
+                <li><a href="#">View Demo</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">ResourcesBenchmarking Tool</a></li>
+                <li><a href="#"></a></li>
+              </ul>
+            </div>
+            <div class="col-xs-12 sm-6 col-md-4 col-lg-3 col-xl-2">
+              <ul class="m-0 p-0">
+                <h5>General</h5>
+                <li><a href="#"></a></li>
+                <li><a href="#">Case Studies</a></li>
+                <li><a href="#">Customer Reviews</a></li>
+                <li><a href="#">View Demo</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">ResourcesBenchmarking Tool</a></li>
+                <li><a href="#"></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+            <div class="container d-md-flex justify-content-between my-4">
+              <ul class="p-0 d-flex gap-3">
+                <li><a href="#">Security & Compliance</a></li>
+                <li><a href="#">GDPR</a></li>
+                <li><a href="#">ISO 27001:2013</a></li>
+                <li><a href="#">SLA</a></li>
+              </ul>
+              <ul class="p-0 d-flex align-item-cente gap-3 icon">
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms of Service</a></li>
+                <li><a href="#"><i class="bi bi-facebook"></i></a></li>
+                <li><a href="#"><i class="bi bi-twitter"></i></a></li>
+                <li><a href="#"><i class="bi bi-linkedin"></i></a></li>
+                <li><a href="#"><i class="bi bi-instagram"></i></a></li>
+              </ul>
+            </div>
+    </div>
+  </footer>
+
+  <!-- bootstrap cnd js -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</body>
+</html>
