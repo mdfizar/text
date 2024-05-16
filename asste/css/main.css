@@ -1,3 +1,16 @@
+/*======= global ========== */
+.sm-font {
+  text-align: start;
+  font-size: 2rem;
+}
+.bg-white {
+  background-color: #ffffffff;
+}
+.lg-font {
+  font-size: 4vw;
+  font-weight:bolder;
+  font-family:"Roboto","Helvetica","Arial",sans-serif;
+}
 body {
   height: 5000px;
   padding-top: 60px;
@@ -5,45 +18,63 @@ body {
 }
 #radius {
   border-radius: 15px 15px 10px 0px;
+  
 }
 #radiu {
   border-radius: 10px 0px 10px 10px;
 }
+ 
+.bt-color{
+  background-color: #eb4e29;
+  transition: 0.2s;
+}
+.btn-hover:hover {
+  background-color: #d02839;
+}
+
+
+
 #item li a {
-  font-size: 20px;
+  font-size: 1rem;
+  font-weight: 400;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 #item li a:hover {
-  color: rgb(8, 192, 73)
+  color:#27c26c;
 }
-.bg-white {
-  background-color: #ffffffff;
+.dropdown a span i {
+  font-size: 12px;
+  font-weight: bolder;
 }
-.lg-font {
-  font-size: 3wv;
-  font-weight:bolder;
-  font-family: Arial, Helvetica, sans-serif;
+.clos i {
+ font-size: 25px;
 }
 #hero {
-  background-image: url('/asste/hero-wave-bg.svg');
-  background-size: contain;
+background-color: #f6f6f8;
 }
 .star div span i {
-  color: rgb(123, 199, 8);
+  color: #27c26c;
+  padding: 0px 2px;
 }
 #logo div {
   text-align: center;
 }
-#logo div img {
-  height: 150px;
-  width: 100px;
-  object-fit: contain;
+#logo div div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin: 10px 0px;
 }
+#logo div img {
+  object-fit: contain;
+}
+.contact-bt-hover {
+  background-color: #0f5333;
+}
 .footer {
-  background-color: rgb(20, 31, 83);
+  background-color: #4c4d5e;
   color:#ffffffff;
 }
 .footer ul li {
@@ -51,12 +82,82 @@ body {
 }
 .footer ul li a{
   text-decoration: none;
-  font-size: 13px;
-  color: #ffffff;
+  font-size: 15px;
+  color: #a4a7ad;
 }
 .footer ul li a:hover{
  color: rgb(216, 80, 80)
 }
 .icon li a i {
   font-size: 20px;
+}
+#d-content{
+  width: 250px;
+}
+#d-content a {
+  padding: 0px;
+  margin:0px
+}
+
+#d-content h5 {
+  margin-left: 10px;
+}
+#d-content div p{
+  font-size: 0.875rem;
+  color: #6d6f78;
+  margin:0px;
+}
+#d-content div{
+  padding: 5px;
+}
+#d-content div:hover {
+  background-color:rgb(248, 248, 248);
+}
+#d-content div:hover h6 {
+  color: #27c26c;
+}
+#custom-m {
+  margin-left: -319px;
+  background-color: #ffffff; 
+  border-radius: 10px 0px 10px 10px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+ 
+}
+
+
+
+@media (max-width:991px) {
+  #d-content div p {
+    display: none;
+  }
+  #custom-m {
+    margin-left: 5px;
+    background-color: #ffffff; 
+    border:0px;
+    box-shadow: none;
+  }
+  .sm-font {
+    font-size: 1rem;
+    text-align: center;
+  }
+  .lg-font {
+    font-size: 4vw;
+    text-align: start;
+    font-weight:bolder;
+    font-family:"Roboto","Helvetica","Arial",sans-serif;
+  }
+  .text-al{
+    text-align: center;
+  }
+  #icon div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  #d-d{
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    gap: 5px;
+  }
 }
