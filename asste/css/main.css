@@ -7,7 +7,7 @@
   background-color: #ffffffff;
 }
 .lg-font {
-  font-size: 4vw;
+  font-size: 4wv;
   font-weight:bolder;
   font-family:"Roboto","Helvetica","Arial",sans-serif;
 }
@@ -33,7 +33,10 @@ body {
 }
 
 
-
+.header-al{
+  max-width:1420px;
+  margin:auto;
+}
 #item li a {
   font-size: 1rem;
   font-weight: 400;
@@ -42,6 +45,9 @@ body {
   align-items: center;
 }
 #item li a:hover {
+  color:#27c26c;
+}
+#item li a:focus{
   color:#27c26c;
 }
 .dropdown a span i {
@@ -121,12 +127,17 @@ background-color: #f6f6f8;
   background-color: #ffffff; 
   border-radius: 10px 0px 10px 10px;
   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
- 
+}
+#hr-img {
+  width: 300px;
 }
 
 
-
 @media (max-width:991px) {
+  #item {
+    height: 200px;
+    overflow-y: scroll;
+  }
   #d-content div p {
     display: none;
   }
@@ -141,7 +152,7 @@ background-color: #f6f6f8;
     text-align: center;
   }
   .lg-font {
-    font-size: 4vw;
+    font-size: 2.4rem;
     text-align: start;
     font-weight:bolder;
     font-family:"Roboto","Helvetica","Arial",sans-serif;
@@ -159,5 +170,12 @@ background-color: #f6f6f8;
     flex-direction: row-reverse;
     justify-content: flex-end;
     gap: 5px;
+  }
+  #hr-img {
+    width: 60%;
+  }
+  #footer-item-al div {
+    display: flex;
+    justify-content: center;
   }
 }
